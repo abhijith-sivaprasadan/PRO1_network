@@ -32,3 +32,11 @@ Authorship and course/team permissions must be confirmed before redistributing
 or relicensing source, spreadsheets or report material. See [provenance](PROVENANCE.md).
 No repository-wide software licence is granted by this documentation update.
 Pandapower and other upstream materials retain their own terms.
+
+
+<!-- ci-workflow-coverage -->
+## Continuous integration
+
+[![CI](https://github.com/abhijith-sivaprasadan/PRO1_network/actions/workflows/ci.yml/badge.svg?branch=codex%2Fci-publication)](https://github.com/abhijith-sivaprasadan/PRO1_network/actions/workflows/ci.yml)
+
+See [CI coverage and limitations](CI.md) for the automated checks. The status badge tracks the published CI review branch.
