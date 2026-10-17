@@ -40,3 +40,7 @@ Pandapower and other upstream materials retain their own terms.
 [![CI](https://github.com/abhijith-sivaprasadan/PRO1_network/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/abhijith-sivaprasadan/PRO1_network/actions/workflows/ci.yml)
 
 See [CI coverage and limitations](CI.md) for the automated checks. The status badge tracks the default branch.
+
+## Independent 2026 screening code (separate from archived coursework)
+
+A new [pandapower numerical screening demonstration](reconstruction/README.md) is developed separately from the historical report and notebooks. It uses the built-in CIGRE MV example and openly synthetic 24-hour/EV profiles. Its numerical tests cover fresh hourly solves and explicitly recorded line/transformer outage outcomes. **It does not reproduce or validate the original coursework results.** Consult its CI and run artifacts before treating it as tested.
