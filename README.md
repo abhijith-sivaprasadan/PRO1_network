@@ -3,8 +3,8 @@
 An academic study of electric-vehicle integration in a medium-voltage network,
 using the CIGRE MV example and pandapower-oriented coursework.
 
-**Status: academic report archive, not a verified reproducible software release.**
-The default branch contains the original [report](PRO1_2024_Sep5.pdf).
+**Status: coursework-material archive, not a verified reproducible software release.**
+**Important: the root PDF is a 19-page KTH assignment brief, not a student results report.** The [course-provided brief](PRO1_2024_Sep5.pdf), dated September 2024, outlines tasks, data and grading criteria; it does not document completed project results.
 Historical source notebooks were identified on the `step_2` development branch,
 but their clean execution, input rights and correspondence to the report have not
 been established. No new results or independently validated N-1 capability are
@@ -40,3 +40,7 @@ Pandapower and other upstream materials retain their own terms.
 [![CI](https://github.com/abhijith-sivaprasadan/PRO1_network/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/abhijith-sivaprasadan/PRO1_network/actions/workflows/ci.yml)
 
 See [CI coverage and limitations](CI.md) for the automated checks. The status badge tracks the default branch.
+
+## Independent 2026 screening code (separate from archived coursework)
+
+A new [pandapower numerical screening demonstration](reconstruction/README.md) is developed separately from the course-provided assignment brief and historical notebooks. It uses the built-in CIGRE MV example and openly synthetic 24-hour/EV profiles; it is not evidence that the brief's later steps were completed. Its numerical tests cover fresh hourly solves and explicitly recorded line/transformer outage outcomes. **It does not reproduce or validate the original coursework results.** Consult its CI and run artifacts before treating it as tested.
