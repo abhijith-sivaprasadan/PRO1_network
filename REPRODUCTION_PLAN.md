@@ -22,3 +22,7 @@ Next steps, in order:
 7. Add package/CLI, scientific tests, CI, attribution and an appropriately scoped licence after these gates pass.
 
 No numerical equivalence, external validation, executable release, or new ownership assertion is made here.
+
+## Specific historical time-series issue (audit 2026-10-17)
+
+The tracked Step 2 notebook invokes `run_timeseries(net)` with an `OutputWriter`, but later constructs `bus_voltages` and `line_loadings` by repeatedly reading `net.res_bus` and `net.res_line` **after** the runner completes. Those tables therefore represent repeated final-state values, rather than archived snapshots for each hour. Assess the OutputWriter's actual recorded values and any existing Excel exports before attributing numerical time-series findings to the study. The independent `reconstruction/` demo intentionally re-solves each hour and is NOT historical report verification.
