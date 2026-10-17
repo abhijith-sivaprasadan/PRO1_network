@@ -1,1 +1,1 @@
-"""Separate independent demonstration; not the archived KTH submission."""\n
+"""Independent demonstration, separate from historical KTH coursework."""
